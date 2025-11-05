@@ -85,7 +85,7 @@ async function run() {
         res.send(result)
      })
 
-    //  to get singel book data
+    //  to get single book data
 
     app.get("/book/:id",async (req, res)=>{
       const id = req.params.id;
